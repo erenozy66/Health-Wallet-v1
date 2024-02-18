@@ -1,0 +1,796 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <!-- Required meta tags -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+      <link href="../../assets/libs/prismjs/themes/prism-okaidia.min.css" rel="stylesheet" />
+      <!-- Favicon icon-->
+<link rel="apple-touch-icon" sizes="180x180" href="../../assets/images/favicon/apple-touch-icon.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="../../assets/images/favicon/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="../../assets/images/favicon/favicon-16x16.png" />
+<link rel="manifest" href="../../assets/images/favicon/site.webmanifest" />
+<link rel="mask-icon" href="../../assets/images/favicon/block-safari-pinned-tab.svg" color="#8b3dff" />
+<link rel="shortcut icon" href="../../assets/images/favicon/favicon.ico" />
+<meta name="msapplication-TileColor" content="#8b3dff" />
+<meta name="msapplication-config" content="../../assets/images/favicon/tile.xml" />
+
+<!-- Color modes -->
+<script src="../../assets/js/vendors/color-modes.js"></script>
+
+<!-- Libs CSS -->
+<link href="../../assets/libs/simplebar/dist/simplebar.min.css" rel="stylesheet" />
+<link href="../../assets/libs/bootstrap-icons/font/bootstrap-icons.min.css" rel="stylesheet" />
+
+<!-- Scroll Cue -->
+<link rel="stylesheet" href="../../assets/libs/scrollcue/scrollCue.css" />
+
+<!-- Box icons -->
+<link rel="stylesheet" href="../../assets/fonts/css/boxicons.min.css" />
+
+<!-- Theme CSS -->
+<link rel="stylesheet" href="../../assets/css/theme.min.css">
+ <!-- Analytics Code -->
+
+      <title>Pagination - Responsive Website Template | Block</title>
+   </head>
+
+   <body>
+      <!-- Main wrapper -->
+      <main class="docs-main-wrapper">
+         <!-- Docs navbar -->
+<header>
+   <nav class="navbar navbar-expand-lg w-100 fixed-top bg-white">
+      <div class="container-fluid px-3">
+         <a class="navbar-brand" href="../../index.html"><img src="../../assets/images/logo/logo.svg" alt /></a>
+
+         <ul class="navbar-nav ms-auto align-items-lg-center flex-row">
+            <li class="nav-item d-none d-md-block">
+               <a class="nav-link me-4 border-bottom-0" href="#!">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-display me-2" viewBox="0 0 16 16">
+                     <path
+                        d="M0 4s0-2 2-2h12s2 0 2 2v6s0 2-2 2h-4c0 .667.083 1.167.25 1.5H11a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1h.75c.167-.333.25-.833.25-1.5H2s-2 0-2-2V4zm1.398-.855a.758.758 0 0 0-.254.302A1.46 1.46 0 0 0 1 4.01V10c0 .325.078.502.145.602.07.105.17.188.302.254a1.464 1.464 0 0 0 .538.143L2.01 11H14c.325 0 .502-.078.602-.145a.758.758 0 0 0 .254-.302 1.464 1.464 0 0 0 .143-.538L15 9.99V4c0-.325-.078-.502-.145-.602a.757.757 0 0 0-.302-.254A1.46 1.46 0 0 0 13.99 3H2c-.325 0-.502.078-.602.145z" />
+                  </svg>
+                  Live Preview
+               </a>
+            </li>
+            <li class="nav-item">
+               <a class="btn btn-primary me-2 me-lg-0" href="#!">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart4 me-2" viewBox="0 0 16 16">
+                     <path
+                        d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z" />
+                  </svg>
+                  Buy now
+               </a>
+            </li>
+            <li class="nav-item d-md-none">
+               <button class="navbar-toggler btn btn-icon" type="button" data-bs-toggle="offcanvas" data-bs-target="#docsSidebar">
+                  <i class="bi bi-list"></i>
+               </button>
+            </li>
+         </ul>
+      </div>
+   </nav>
+</header>
+
+         <!-- left sidebar -->
+         <!-- Side navbar -->
+<aside class="docs-nav-sidebar">
+   <div class="docs-nav" data-simplebar>
+      <div class="offcanvas-md offcanvas-start" id="docsSidebar" data-bs-scroll="true">
+         <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="docsSidebarLabel">Menu</h5>
+
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+         </div>
+         <div class="offcanvas-body pt-0 align-items-center">
+            <ul class="navbar-nav flex-column" id="sidebarnav">
+               <li class="navbar-header">
+                  <h5 class="heading">Getting Started</h5>
+               </li>
+               <li class="nav-item"><a href="../../docs/index.html" class="nav-link">Introduction</a></li>
+               <li class="nav-item"><a href="../../docs/environment-setup.html" class="nav-link">Environment setup</a></li>
+               <li class="nav-item"><a href="../../docs/working-with-gulp.html" class="nav-link">Working with Gulp</a></li>
+               <li class="nav-item"><a href="../../docs/compiled-files.html" class="nav-link">Compiled Files</a></li>
+               <li class="nav-item"><a href="../../docs/file-structure.html" class="nav-link">File Structure</a></li>
+               <li class="nav-item"><a href="../../docs/resources-assets.html" class="nav-link">Resources & assets</a></li>
+               <li class="nav-item"><a href="../../docs/changelog.html" class="nav-link">Changelog</a></li>
+
+               <li>
+                  <div class="navbar-border"></div>
+               </li>
+               <li class="navbar-header mt-0">
+                  <h5 class="heading">Foundation</h5>
+               </li>
+               <li class="nav-item"><a href="../../docs/typography.html" class="nav-link">Typography</a></li>
+               <li class="nav-item"><a href="../../docs/colors.html" class="nav-link">Colors</a></li>
+               <li class="nav-item"><a href="../../docs/shadows.html" class="nav-link">Shadows</a></li>
+
+               <li>
+                  <div class="navbar-border"></div>
+               </li>
+
+               <li class="navbar-header mt-0">
+                  <h5 class="heading">
+                     Components
+                     <small class="text-primary">(Bootstrap)</small>
+                  </h5>
+               </li>
+               <li class="nav-item"><a href="../../docs/components/alert.html" class="nav-link">Alerts</a></li>
+               <li class="nav-item"><a href="../../docs/components/badge.html" class="nav-link">Badge</a></li>
+               <li class="nav-item"><a href="../../docs/components/breadcrumb.html" class="nav-link">Breadcrumb</a></li>
+               <li class="nav-item"><a href="../../docs/components/button.html" class="nav-link">Buttons</a></li>
+               <li class="nav-item"><a href="../../docs/components/button-group.html" class="nav-link">Button group</a></li>
+               <li class="nav-item"><a href="../../docs/components/card.html" class="nav-link">Card</a></li>
+               <li class="nav-item"><a href="../../docs/components/carousel.html" class="nav-link">Carousel</a></li>
+               <li class="nav-item"><a href="../../docs/components/collapse.html" class="nav-link">Collapse</a></li>
+               <li class="nav-item"><a href="../../docs/components/dropdown.html" class="nav-link">Dropdowns</a></li>
+               <li class="nav-item"><a href="../../docs/components/list-group.html" class="nav-link">List group</a></li>
+               <li class="nav-item"><a href="../../docs/components/modal.html" class="nav-link">Modal</a></li>
+               <li class="nav-item"><a href="../../docs/components/nav-tabs.html" class="nav-link">Navs & tabs</a></li>
+               <li class="nav-item"><a href="../../docs/components/offcanvas.html" class="nav-link">Offcanvas</a></li>
+               <li class="nav-item"><a href="../../docs/components/pagination.html" class="nav-link">Pagination</a></li>
+               <li class="nav-item"><a href="../../docs/components/placeholders.html" class="nav-link">Placeholders</a></li>
+               <li class="nav-item"><a href="../../docs/components/popovers.html" class="nav-link">Popovers</a></li>
+               <li class="nav-item"><a href="../../docs/components/progress.html" class="nav-link">Progress</a></li>
+               <li class="nav-item"><a href="../../docs/components/scrollspy.html" class="nav-link">Scrollspy</a></li>
+               <li class="nav-item"><a href="../../docs/components/spinners.html" class="nav-link">Spinners</a></li>
+               <li class="nav-item"><a href="../../docs/components/table.html" class="nav-link">Tables</a></li>
+               <li class="nav-item"><a href="../../docs/components/toast.html" class="nav-link">Toasts</a></li>
+               <li class="nav-item"><a href="../../docs/components/tooltip.html" class="nav-link">Tooltips</a></li>
+               <li>
+                  <div class="navbar-border"></div>
+               </li>
+               <li class="navbar-header mt-0">
+                  <h5 class="heading">Forms</h5>
+               </li>
+               <li class="nav-item">
+                  <a href="../../docs/components/forms.html" class="nav-link">Basic Forms</a>
+               </li>
+
+               <li>
+                  <div class="navbar-border"></div>
+               </li>
+
+               <li class="navbar-header mt-0">
+                  <h5 class="heading">Utilities</h5>
+               </li>
+               <li class="nav-item"><a href="../../docs/background.html" class="nav-link">Background</a></li>
+               <li class="nav-item"><a href="../../docs/border.html" class="nav-link">Borders</a></li>
+               <li class="nav-item"><a href="../../docs/colored-link.html" class="nav-link">Colored Links</a></li>
+               <li class="nav-item"><a href="../../docs/opacity.html" class="nav-link">Opacity</a></li>
+               <li class="nav-item"><a href="../../docs/ratio.html" class="nav-link">Ratio</a></li>
+               <li class="nav-item"><a href="../../docs/stacks.html" class="nav-link">Stacks</a></li>
+               <li class="nav-item"><a href="../../docs/color.html" class="nav-link">Colors</a></li>
+               <li class="nav-item"><a href="../../docs/text.html" class="nav-link">Text</a></li>
+               <li class="nav-item"><a href="../../docs/text-truncation.html" class="nav-link">Text truncation</a></li>
+               <li class="nav-item"><a href="../../docs/vertical-rule.html" class="nav-link">Vertical rule</a></li>
+            </ul>
+         </div>
+      </div>
+   </div>
+</aside>
+
+         <!-- Wrapper  -->
+         <div class="docs-wrapper">
+            <div class="docs-content">
+               <!-- Content -->
+               <div class="container">
+                  <div class="row">
+                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="mb-5" id="intro">
+                           <h1>Pagination</h1>
+                           <p class="mb-0">Documentation and examples for showing pagination to indicate a series of related content exists across multiple pages.</p>
+                        </div>
+                     </div>
+                  </div>
+                  <!--default pagination-->
+                  <div class="border rounded mb-lg-7 mb-5">
+                     <div class="row align-items-center py-2 px-3">
+                        <div class="col-lg-8 col-xl-9 col-7">
+                           <div>
+                              <h2 class="text-truncate h5 mb-0">Default Pagination</h2>
+                           </div>
+                        </div>
+                        <div class="col-lg-4 col-xl-3 col-5 d-flex justify-content-end">
+                           <ul class="nav nav-pills nav-custom-pill" id="pills-tabTwo" role="tablist">
+                              <li class="nav-item">
+                                 <a
+                                    class="nav-link active"
+                                    id="pills-default-pagintaion-preview-tab"
+                                    data-bs-toggle="pill"
+                                    href="#pills-default-pagintaion-preview"
+                                    role="tab"
+                                    aria-controls="pills-default-pagintaion-preview"
+                                    aria-selected="true">
+                                    <span class="lh-1"><i class="bi bi-eye"></i></span>
+                                    <span class="ms-2 d-none d-lg-block">Preview</span>
+                                 </a>
+                              </li>
+                              <li class="nav-item">
+                                 <a
+                                    class="nav-link"
+                                    id="pills-default-pagintaion-code-tab"
+                                    data-bs-toggle="pill"
+                                    href="#pills-default-pagintaion-code"
+                                    role="tab"
+                                    aria-controls="pills-default-pagintaion-code"
+                                    aria-selected="false">
+                                    <span class="lh-1"><i class="bi bi-code"></i></span>
+                                    <span class="ms-2 d-none d-lg-block">Code</span>
+                                 </a>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-md-12">
+                           <div class="tab-content border-top p-3" id="pills-tabTwoContent">
+                              <div class="tab-pane tab-example-preview fade show active" id="pills-default-pagintaion-preview" role="tabpanel" aria-labelledby="pills-default-pagintaion-preview-tab">
+                                 <!--default pagination-->
+                                 <nav aria-label="Page navigation example">
+                                    <ul class="pagination mb-0">
+                                       <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                                       <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                       <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                       <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                       <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                                    </ul>
+                                 </nav>
+                              </div>
+                              <div class="tab-pane tab-example-code fade" id="pills-default-pagintaion-code" role="tabpanel" aria-labelledby="pills-default-pagintaion-code-tab">
+                                 <pre class="language-markup" tabindex="0"><code class="language-markup"> <span class="token comment">&lt;!--default pagination--&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>nav</span> <span class="token attr-name">aria-label</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Page navigation example<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>pagination<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-item<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-link<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Previous<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-item<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-link<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-item<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-link<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>2<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-item<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-link<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>3<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-item<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-link<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Next<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>nav</span><span class="token punctuation">&gt;</span></span></code></pre>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!--default pagination-->
+                  <!--working with icon-->
+                  <div class="border rounded mb-lg-7 mb-5">
+                     <div class="row align-items-center py-2 px-3">
+                        <div class="col-lg-8 col-xl-9 col-7">
+                           <div>
+                              <h2 class="text-truncate h5 mb-0">Working with icons</h2>
+                           </div>
+                        </div>
+                        <div class="col-lg-4 col-xl-3 col-5 d-flex justify-content-end">
+                           <ul class="nav nav-pills nav-custom-pill" id="pills-tabTwo" role="tablist">
+                              <li class="nav-item">
+                                 <a
+                                    class="nav-link active"
+                                    id="pills-icon-preview-tab"
+                                    data-bs-toggle="pill"
+                                    href="#pills-icon-preview"
+                                    role="tab"
+                                    aria-controls="pills-icon-preview"
+                                    aria-selected="true">
+                                    <span class="lh-1"><i class="bi bi-eye"></i></span>
+                                    <span class="ms-2 d-none d-lg-block">Preview</span>
+                                 </a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" id="pills-icon-code-tab" data-bs-toggle="pill" href="#pills-icon-code" role="tab" aria-controls="pills-icon-code" aria-selected="false">
+                                    <span class="lh-1"><i class="bi bi-code"></i></span>
+                                    <span class="ms-2 d-none d-lg-block">Code</span>
+                                 </a>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-md-12">
+                           <div class="tab-content border-top p-3" id="pills-tabTwoContent">
+                              <div class="tab-pane tab-example-preview fade show active" id="pills-icon-preview" role="tabpanel" aria-labelledby="pills-icon-preview-tab">
+                                 <!--working with icons-->
+                                 <nav aria-label="Page navigation example">
+                                    <ul class="pagination mb-0">
+                                       <li class="page-item">
+                                          <a class="page-link" href="#" aria-label="Previous">
+                                             <span aria-hidden="true">&laquo;</span>
+                                          </a>
+                                       </li>
+                                       <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                       <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                       <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                       <li class="page-item">
+                                          <a class="page-link" href="#" aria-label="Next">
+                                             <span aria-hidden="true">&raquo;</span>
+                                          </a>
+                                       </li>
+                                    </ul>
+                                 </nav>
+                              </div>
+                              <div class="tab-pane tab-example-code fade" id="pills-icon-code" role="tabpanel" aria-labelledby="pills-icon-code-tab">
+                                 <pre class="language-markup" tabindex="0"><code class="language-markup"><span class="token comment">&lt;!--working with icons--&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>nav</span> <span class="token attr-name">aria-label</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Page navigation example<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>pagination<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-item<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-link<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span> <span class="token attr-name">aria-label</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Previous<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">aria-hidden</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>true<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token entity named-entity" title="«">&amp;laquo;</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-item<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-link<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-item<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-link<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>2<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-item<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-link<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>3<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-item<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-link<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span> <span class="token attr-name">aria-label</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Next<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">aria-hidden</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>true<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token entity named-entity" title="»">&amp;raquo;</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>nav</span><span class="token punctuation">&gt;</span></span></code></pre>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!--working with icon-->
+                  <!--disable and active-->
+                  <div class="border rounded mb-lg-7 mb-5">
+                     <div class="row align-items-center py-2 px-3">
+                        <div class="col-lg-8 col-xl-9 col-7">
+                           <div>
+                              <h2 class="text-truncate h5 mb-0">Disabled and active states</h2>
+                           </div>
+                        </div>
+                        <div class="col-lg-4 col-xl-3 col-5 d-flex justify-content-end">
+                           <ul class="nav nav-pills nav-custom-pill" id="pills-tabTwo" role="tablist">
+                              <li class="nav-item">
+                                 <a
+                                    class="nav-link active"
+                                    id="pills-disable-active-preview-tab"
+                                    data-bs-toggle="pill"
+                                    href="#pills-disable-active-preview"
+                                    role="tab"
+                                    aria-controls="pills-disable-active-preview"
+                                    aria-selected="true">
+                                    <span class="lh-1"><i class="bi bi-eye"></i></span>
+                                    <span class="ms-2 d-none d-lg-block">Preview</span>
+                                 </a>
+                              </li>
+                              <li class="nav-item">
+                                 <a
+                                    class="nav-link"
+                                    id="pills-disable-active-code-tab"
+                                    data-bs-toggle="pill"
+                                    href="#pills-disable-active-code"
+                                    role="tab"
+                                    aria-controls="pills-disable-active-code"
+                                    aria-selected="false">
+                                    <span class="lh-1"><i class="bi bi-code"></i></span>
+                                    <span class="ms-2 d-none d-lg-block">Code</span>
+                                 </a>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-md-12">
+                           <div class="tab-content border-top p-3" id="pills-tabTwoContent">
+                              <div class="tab-pane tab-example-preview fade show active" id="pills-disable-active-preview" role="tabpanel" aria-labelledby="pills-disable-active-preview-tab">
+                                 <!--disabled and active states-->
+                                 <nav aria-label="...">
+                                    <ul class="pagination mb-0">
+                                       <li class="page-item disabled">
+                                          <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                                       </li>
+                                       <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                       <li class="page-item active" aria-current="page">
+                                          <a class="page-link" href="#">
+                                             2
+                                             <span class="visually-hidden">(current)</span>
+                                          </a>
+                                       </li>
+                                       <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                       <li class="page-item">
+                                          <a class="page-link" href="#">Next</a>
+                                       </li>
+                                    </ul>
+                                 </nav>
+                              </div>
+                              <div class="tab-pane tab-example-code fade" id="pills-disable-active-code" role="tabpanel" aria-labelledby="pills-disable-active-code-tab">
+                                 <pre class="language-markup" tabindex="0"><code class="language-markup"> <span class="token comment">&lt;!--disabled and active states--&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>nav</span> <span class="token attr-name">aria-label</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>...<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>pagination<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-item disabled<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-link<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span> <span class="token attr-name">tabindex</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>-1<span class="token punctuation">"</span></span> <span class="token attr-name">aria-disabled</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>true<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Previous<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-item<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-link<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-item active<span class="token punctuation">"</span></span> <span class="token attr-name">aria-current</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-link<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>2 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>visually-hidden<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>(current)<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-item<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-link<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>3<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-item<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-link<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Next<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>nav</span><span class="token punctuation">&gt;</span></span></code></pre>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!--disable and active-->
+                  <!--larg size-->
+                  <div class="border rounded mb-lg-7 mb-5">
+                     <div class="row align-items-center py-2 px-3">
+                        <div class="col-lg-8 col-xl-9 col-7">
+                           <div>
+                              <h2 class="text-truncate h5 mb-0">Sizing large</h2>
+                           </div>
+                        </div>
+                        <div class="col-lg-4 col-xl-3 col-5 d-flex justify-content-end">
+                           <ul class="nav nav-pills nav-custom-pill" id="pills-tabTwo" role="tablist">
+                              <li class="nav-item">
+                                 <a
+                                    class="nav-link active"
+                                    id="pills-sizing-preview-tab"
+                                    data-bs-toggle="pill"
+                                    href="#pills-sizing-preview"
+                                    role="tab"
+                                    aria-controls="pills-sizing-preview"
+                                    aria-selected="true">
+                                    <span class="lh-1"><i class="bi bi-eye"></i></span>
+                                    <span class="ms-2 d-none d-lg-block">Preview</span>
+                                 </a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" id="pills-sizing-code-tab" data-bs-toggle="pill" href="#pills-sizing-code" role="tab" aria-controls="pills-sizing-code" aria-selected="false">
+                                    <span class="lh-1"><i class="bi bi-code"></i></span>
+                                    <span class="ms-2 d-none d-lg-block">Code</span>
+                                 </a>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-md-12">
+                           <div class="tab-content border-top p-3" id="pills-tabTwoContent">
+                              <div class="tab-pane tab-example-preview fade show active" id="pills-sizing-preview" role="tabpanel" aria-labelledby="pills-sizing-preview-tab">
+                                 <!--sizing larg-->
+                                 <nav aria-label="...">
+                                    <ul class="pagination pagination-lg mb-0">
+                                       <li class="page-item active" aria-current="page">
+                                          <span class="page-link">
+                                             1
+                                             <span class="visually-hidden">(current)</span>
+                                          </span>
+                                       </li>
+                                       <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                       <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    </ul>
+                                 </nav>
+                              </div>
+                              <div class="tab-pane tab-example-code fade" id="pills-sizing-code" role="tabpanel" aria-labelledby="pills-sizing-code-tab">
+                                 <pre class="language-markup" tabindex="0"><code class="language-markup"><span class="token comment">&lt;!--sizing larg--&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>nav</span> <span class="token attr-name">aria-label</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>...<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+ <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>pagination pagination-lg<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-item active<span class="token punctuation">"</span></span> <span class="token attr-name">aria-current</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-link<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+       1
+       <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>visually-hidden<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>(current)<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
+     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
+   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-item<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-link<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>2<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-item<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-link<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>3<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+ <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>nav</span><span class="token punctuation">&gt;</span></span></code></pre>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!--larg size-->
+                  <!--small size-->
+                  <div class="border rounded mb-lg-7 mb-5">
+                     <div class="row align-items-center py-2 px-3">
+                        <div class="col-lg-8 col-xl-9 col-7">
+                           <div>
+                              <h2 class="text-truncate h5 mb-0">Sizing small</h2>
+                           </div>
+                        </div>
+                        <div class="col-lg-4 col-xl-3 col-5 d-flex justify-content-end">
+                           <ul class="nav nav-pills nav-custom-pill" id="pills-tabTwo" role="tablist">
+                              <li class="nav-item">
+                                 <a
+                                    class="nav-link active"
+                                    id="pills-sizing-sm-preview-tab"
+                                    data-bs-toggle="pill"
+                                    href="#pills-sizing-sm-preview"
+                                    role="tab"
+                                    aria-controls="pills-sizing-sm-preview"
+                                    aria-selected="true">
+                                    <span class="lh-1"><i class="bi bi-eye"></i></span>
+                                    <span class="ms-2 d-none d-lg-block">Preview</span>
+                                 </a>
+                              </li>
+                              <li class="nav-item">
+                                 <a
+                                    class="nav-link"
+                                    id="pills-sizing-sm-code-tab"
+                                    data-bs-toggle="pill"
+                                    href="#pills-sizing-sm-code"
+                                    role="tab"
+                                    aria-controls="pills-sizing-sm-code"
+                                    aria-selected="false">
+                                    <span class="lh-1"><i class="bi bi-code"></i></span>
+                                    <span class="ms-2 d-none d-lg-block">Code</span>
+                                 </a>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-md-12">
+                           <div class="tab-content border-top p-3" id="pills-tabTwoContent">
+                              <div class="tab-pane tab-example-preview fade show active" id="pills-sizing-sm-preview" role="tabpanel" aria-labelledby="pills-sizing-sm-preview-tab">
+                                 <!--sizing small-->
+                                 <nav aria-label="...">
+                                    <ul class="pagination pagination-sm mb-0">
+                                       <li class="page-item active" aria-current="page">
+                                          <span class="page-link">
+                                             1
+                                             <span class="visually-hidden">(current)</span>
+                                          </span>
+                                       </li>
+                                       <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                       <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    </ul>
+                                 </nav>
+                              </div>
+                              <div class="tab-pane tab-example-code fade" id="pills-sizing-sm-code" role="tabpanel" aria-labelledby="pills-sizing-sm-code-tab">
+                                 <pre class="language-markup" tabindex="0"><code class="language-markup"><span class="token comment">&lt;!--sizing small--&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>nav</span> <span class="token attr-name">aria-label</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>...<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>pagination pagination-sm<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-item active<span class="token punctuation">"</span></span> <span class="token attr-name">aria-current</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-link<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+        1
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>visually-hidden<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>(current)<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-item<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-link<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>2<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-item<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-link<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>3<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>nav</span><span class="token punctuation">&gt;</span></span></code></pre>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!--small size-->
+                  <!--alignment center-->
+                  <div class="border rounded mb-lg-7 mb-5">
+                     <div class="row align-items-center py-2 px-3">
+                        <div class="col-lg-8 col-xl-9 col-7">
+                           <div>
+                              <h2 class="text-truncate h5 mb-0">Alignment center</h2>
+                           </div>
+                        </div>
+                        <div class="col-lg-4 col-xl-3 col-5 d-flex justify-content-end">
+                           <ul class="nav nav-pills nav-custom-pill" id="pills-tabTwo" role="tablist">
+                              <li class="nav-item">
+                                 <a
+                                    class="nav-link active"
+                                    id="pills-alignment-preview-tab"
+                                    data-bs-toggle="pill"
+                                    href="#pills-alignment-preview"
+                                    role="tab"
+                                    aria-controls="pills-alignment-preview"
+                                    aria-selected="true">
+                                    <span class="lh-1"><i class="bi bi-eye"></i></span>
+                                    <span class="ms-2 d-none d-lg-block">Preview</span>
+                                 </a>
+                              </li>
+                              <li class="nav-item">
+                                 <a
+                                    class="nav-link"
+                                    id="pills-alignment-code-tab"
+                                    data-bs-toggle="pill"
+                                    href="#pills-alignment-code"
+                                    role="tab"
+                                    aria-controls="pills-alignment-code"
+                                    aria-selected="false">
+                                    <span class="lh-1"><i class="bi bi-code"></i></span>
+                                    <span class="ms-2 d-none d-lg-block">Code</span>
+                                 </a>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-md-12">
+                           <div class="tab-content border-top p-3" id="pills-tabTwoContent">
+                              <div class="tab-pane tab-example-preview fade show active" id="pills-alignment-preview" role="tabpanel" aria-labelledby="pills-alignment-preview-tab">
+                                 <!-- Center alignment -->
+                                 <nav aria-label="Page navigation example">
+                                    <ul class="pagination justify-content-center mb-0">
+                                       <li class="page-item disabled">
+                                          <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                                       </li>
+                                       <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                       <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                       <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                       <li class="page-item">
+                                          <a class="page-link" href="#">Next</a>
+                                       </li>
+                                    </ul>
+                                 </nav>
+                              </div>
+                              <div class="tab-pane tab-example-code fade" id="pills-alignment-code" role="tabpanel" aria-labelledby="pills-alignment-code-tab">
+                                 <pre class="language-markup" tabindex="0"><code class="language-markup"> <span class="token comment">&lt;!-- Center alignment --&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>nav</span> <span class="token attr-name">aria-label</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Page navigation example<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>pagination justify-content-center<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-item disabled<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-link<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span> <span class="token attr-name">tabindex</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>-1<span class="token punctuation">"</span></span> <span class="token attr-name">aria-disabled</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>true<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Previous<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-item<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-link<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-item<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-link<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>2<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-item<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-link<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>3<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-item<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-link<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Next<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>nav</span><span class="token punctuation">&gt;</span></span></code></pre>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!--alignment center-->
+                  <!--alignment end-->
+                  <div class="border rounded mb-lg-7 mb-5">
+                     <div class="row align-items-center py-2 px-3">
+                        <div class="col-lg-8 col-xl-9 col-7">
+                           <div>
+                              <h2 class="text-truncate h5 mb-0">Alignment end</h2>
+                           </div>
+                        </div>
+                        <div class="col-lg-4 col-xl-3 col-5 d-flex justify-content-end">
+                           <ul class="nav nav-pills nav-custom-pill" id="pills-tabTwo" role="tablist">
+                              <li class="nav-item">
+                                 <a
+                                    class="nav-link active"
+                                    id="pills-alignment-end-preview-tab"
+                                    data-bs-toggle="pill"
+                                    href="#pills-alignment-end-preview"
+                                    role="tab"
+                                    aria-controls="pills-alignment-end-preview"
+                                    aria-selected="true">
+                                    <span class="lh-1"><i class="bi bi-eye"></i></span>
+                                    <span class="ms-2 d-none d-lg-block">Preview</span>
+                                 </a>
+                              </li>
+                              <li class="nav-item">
+                                 <a
+                                    class="nav-link"
+                                    id="pills-alignment-end-code-tab"
+                                    data-bs-toggle="pill"
+                                    href="#pills-alignment-end-code"
+                                    role="tab"
+                                    aria-controls="pills-alignment-end-code"
+                                    aria-selected="false">
+                                    <span class="lh-1"><i class="bi bi-code"></i></span>
+                                    <span class="ms-2 d-none d-lg-block">Code</span>
+                                 </a>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-md-12">
+                           <div class="tab-content border-top p-3" id="pills-tabTwoContent">
+                              <div class="tab-pane tab-example-preview fade show active" id="pills-alignment-end-preview" role="tabpanel" aria-labelledby="pills-alignment-end-preview-tab">
+                                 <!--end alignment-->
+                                 <nav aria-label="Page navigation example">
+                                    <ul class="pagination justify-content-end">
+                                       <li class="page-item disabled">
+                                          <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                                       </li>
+                                       <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                       <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                       <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                       <li class="page-item">
+                                          <a class="page-link" href="#">Next</a>
+                                       </li>
+                                    </ul>
+                                 </nav>
+                              </div>
+                              <div class="tab-pane tab-example-code fade" id="pills-alignment-end-code" role="tabpanel" aria-labelledby="pills-alignment-end-code-tab">
+                                 <pre class="language-markup" tabindex="0"><code class="language-markup"><span class="token comment">&lt;!--end alignment--&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>nav</span> <span class="token attr-name">aria-label</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Page navigation example<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>pagination justify-content-end<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-item disabled<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-link<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span> <span class="token attr-name">tabindex</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>-1<span class="token punctuation">"</span></span> <span class="token attr-name">aria-disabled</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>true<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Previous<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-item<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-link<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-item<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-link<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>2<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-item<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-link<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>3<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-item<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>page-link<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>Next<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>nav</span><span class="token punctuation">&gt;</span></span></code></pre>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!--alignment end-->
+               </div>
+            </div>
+            <!-- Footer -->
+<footer class="container-fluid py-2 border-top position-fixed bottom-0 bg-white" style="width: -webkit-fill-available">
+   <div class="row align-items-center">
+      <div class="col-9">
+         <div class="small">
+            Copyright © 2023
+
+            <span class="text-primary"><a href="#">Block Bootstrap 5 Theme</a></span>
+            | Designed by
+            <span class="text-primary"><a href="#">CodesCandy</a></span>
+         </div>
+      </div>
+      <div class="col-3">
+         <div class="text-md-end d-flex align-items-center justify-content-end">
+            <div class="dropdown">
+               <button class="btn btn-light btn-icon rounded-circle d-flex align-items-center" type="button" aria-expanded="false" data-bs-toggle="dropdown" aria-label="Toggle theme (auto)">
+                  <i class="bi theme-icon-active"></i>
+                  <span class="visually-hidden bs-theme-text">Toggle theme</span>
+               </button>
+               <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bs-theme-text">
+                  <li>
+                     <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false">
+                        <i class="bi theme-icon bi-sun-fill"></i>
+                        <span class="ms-2">Light</span>
+                     </button>
+                  </li>
+                  <li>
+                     <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="false">
+                        <i class="bi theme-icon bi-moon-stars-fill"></i>
+                        <span class="ms-2">Dark</span>
+                     </button>
+                  </li>
+                  <li>
+                     <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto" aria-pressed="true">
+                        <i class="bi theme-icon bi-circle-half"></i>
+                        <span class="ms-2">Auto</span>
+                     </button>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </div>
+</footer>
+
+         </div>
+      </main>
+
+      <!-- Scripts -->
+      <!-- Libs JS -->
+<script src="../../assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../../assets/libs/simplebar/dist/simplebar.min.js"></script>
+<script src="../../assets/libs/headhesive/dist/headhesive.min.js"></script>
+
+<!-- Theme JS -->
+<script src="../../assets/js/theme.min.js"></script>
+
+
+      <script src="../../assets/libs/prismjs/prism.js"></script>
+      <script src="../../assets/libs/prismjs/components/prism-scss.min.js"></script>
+      <script src="../../assets/libs/prismjs/plugins/toolbar/prism-toolbar.min.js"></script>
+      <script src="../../assets/libs/prismjs/plugins/copy-to-clipboard/prism-copy-to-clipboard.min.js"></script>
+      <script src="../../assets/js/vendors/sidebar-menu.js"></script>
+   </body>
+</html>
