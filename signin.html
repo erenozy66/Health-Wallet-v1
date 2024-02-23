@@ -5,14 +5,7 @@
       <meta charset="utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
       <!-- Favicon icon-->
-      <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/favicon/apple-touch-icon.png" />
-      <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon/favicon-32x32.png" />
-      <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon/favicon-16x16.png" />
-      <link rel="manifest" href="./assets/images/favicon/site.webmanifest" />
-      <link rel="mask-icon" href="./assets/images/favicon/block-safari-pinned-tab.svg" color="#8b3dff" />
-      <link rel="shortcut icon" href="./assets/images/favicon/favicon.ico" />
-      <meta name="msapplication-TileColor" content="#8b3dff" />
-      <meta name="msapplication-config" content="./assets/images/favicon/tile.xml" />
+      <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon/faviconniara.png" />
 
       <!-- Color modes -->
       <script src="./assets/js/vendors/color-modes.js"></script>
@@ -30,53 +23,59 @@
       <!-- Theme CSS -->
       <link rel="stylesheet" href="./assets/css/theme.min.css" />
 
-      <title>Reset Password v2 - Responsive Website Template | Block</title>
+      <title>Sign In</title>
    </head>
 
    <body>
       <main>
          <!--Pageheader start-->
          <div class="position-relative h-100">
-            <div class="container d-flex flex-wrap justify-content-center align-items-center vh-100 w-lg-50 position-lg-absolute">
+            <div class="container d-flex flex-wrap justify-content-center vh-100 align-items-center w-lg-50 position-lg-absolute">
                <div class="row justify-content-center">
                   <div class="w-100 align-self-end col-12">
                      <div class="text-center mb-7">
-                        <a href="index.html"><img src="./assets/images/logo/brand-icon.svg" alt="brand" /></a>
-                        <h1 class="mb-1">Set new password</h1>
-                        <p class="mb-0">No worries, we will send you reset instruction.</p>
+                        <a href="index.html"><img src="./assets/images/logo/LogoNiara.png" alt="brand" class="mb-3" style="width: 200px;" /></a>
+                        <h1 class="mb-1">Welcome Back</h1>
+                        <p class="mb-0">
+                           Don’t have an account yet?
+                           <a href="./signup.html" class="text-primary">Register here</a>
+                        </p>
                      </div>
-                     <form class="needs-validation" novalidate>
+                     <form class="needs-validation mb-6" novalidate>
                         <div class="mb-3">
-                           <label for="formResetPassword" class="form-label">Password</label>
-                           <div class="password-field position-relative">
-                              <input type="password" class="form-control fakePassword" id="formResetPassword" required />
-                              <span><i class="bi bi-eye-slash passwordToggler"></i></span>
-                              <div class="invalid-feedback">Please enter password.</div>
-                           </div>
+                           <label for="signinEmailInput" class="form-label">
+                              Email
+                              <span class="text-danger">*</span>
+                           </label>
+                           <input type="email" class="form-control" id="signinEmailInput" required />
+                           <div class="invalid-feedback">Please enter email.</div>
                         </div>
                         <div class="mb-3">
-                           <label for="formResetConfirmPassword" class="form-label">Confirm Password</label>
+                           <label for="formSignUpPassword" class="form-label">Password</label> <span class="text-danger">*</span>
                            <div class="password-field position-relative">
-                              <input type="password" class="form-control fakePassword" id="formResetConfirmPassword" required />
+                              <input type="password" class="form-control fakePassword" id="formSignUpPassword" required />
                               <span><i class="bi bi-eye-slash passwordToggler"></i></span>
                               <div class="invalid-feedback">Please enter password.</div>
                            </div>
                         </div>
 
-                        <div class="d-grid mb-4">
-                           <button class="btn btn-primary" type="submit">Reset Password</button>
+                        <div class="mb-3">
+                           <div class="d-flex align-items-center justify-content-between">
+                              <div class="form-check">
+                                 <input class="form-check-input" type="checkbox" id="rememberMeCheckbox" />
+                                 <label class="form-check-label" for="rememberMeCheckbox">Remember me</label>
+                              </div>
+
+                              <div><a href="./forget-password.html" class="text-primary">Forgot Password</a></div>
+                           </div>
                         </div>
-                        <div class="text-center">
-                           <a href="./reset-password-v2.html" class="icon-link icon-link-hover">
-                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
-                                 <path
-                                    fill-rule="evenodd"
-                                    d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
-                              </svg>
-                              <span>Back to Login</span>
-                           </a>
+
+                        <div class="d-grid">
+                           <button class="btn btn-primary" type="submit">Sign In</button>
                         </div>
                      </form>
+
+                    
                   </div>
                </div>
             </div>
@@ -85,7 +84,7 @@
                style="background-image: url(./assets/images/sign-in/authentication-img.jpg); background-position: center; background-repeat: no-repeat; background-size: cover"></div>
          </div>
          <!--Pageheader end-->
-         <!--Reset password v2 start-->
+         <!--Sign up v2 start-->
          <div class="position-absolute start-0 bottom-0 m-4">
             <div class="dropdown">
                <button class="btn btn-light btn-icon rounded-circle d-flex align-items-center" type="button" aria-expanded="false" data-bs-toggle="dropdown" aria-label="Toggle theme (auto)">
@@ -114,7 +113,7 @@
                </ul>
             </div>
          </div>
-         <!--Reset password v2 end-->
+         <!--Sign up v2 end-->
       </main>
 
       <!-- Libs JS -->
