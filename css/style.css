@@ -8154,6 +8154,9 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
     margin: 0;
     list-style: none;
     background: #fafafa; }
+    .noHover{
+      pointer-events: none;
+  }
   .nk-sidebar .metismenu {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -8175,16 +8178,9 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
       color: #464a53; }
       .nk-sidebar .metismenu > li > a {
         transition: none; }
-      .nk-sidebar .metismenu > li:hover i, .nk-sidebar .metismenu > li:focus i, .nk-sidebar .metismenu > li.active i {
-        color: #464a53 !important; }
-      .nk-sidebar .metismenu > li:hover span, .nk-sidebar .metismenu > li:focus span, .nk-sidebar .metismenu > li.active span {
-        color: #464a53; }
-      .nk-sidebar .metismenu > li:hover > a {
-        background: #F3F1FA;
-        color: #7571f9; }
-      .nk-sidebar .metismenu > li.active > a {
-        background: #F3F1FA;
-        color: #464a53; }
+      
+    
+   
       .nk-sidebar .metismenu > li.active ul a {
         color: #464a53; }
       .nk-sidebar .metismenu > li a > i {
@@ -8208,9 +8204,7 @@ Fixing Order => Base + Typography >> General Layout + Grid >> Page Layout + Comp
       color: #7571f9; }
     .nk-sidebar .metismenu a {
       transition: all 0.4s ease-in-out; }
-      .nk-sidebar .metismenu a:hover, .nk-sidebar .metismenu a:active, .nk-sidebar .metismenu a.active {
-        text-decoration: none;
-        background-color: #F3F1FA; }
+     
     .nk-sidebar .metismenu .has-arrow:after {
       position: absolute;
       content: "";
