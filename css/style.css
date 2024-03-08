@@ -254,6 +254,11 @@ label {
   display: inline-block;
   margin-bottom: 0.5rem; }
 
+  #preloader svg circle {
+    stroke: #7634d9 !important;
+  }
+  
+
 button {
   border-radius: 0; }
 
